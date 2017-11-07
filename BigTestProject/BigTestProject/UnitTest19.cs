@@ -5,7 +5,7 @@ namespace BigTestProject
     /// <summary>
     /// Test Class # 1
     /// </summary>
-    public class UnitTest7
+    public class UnitTest19
     {
         /// <summary>
         /// Tests the method1.
