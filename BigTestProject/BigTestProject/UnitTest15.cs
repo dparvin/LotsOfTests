@@ -3,25 +3,15 @@
 namespace BigTestProject
 {
     /// <summary>
-    /// Test Class # 1
+    /// Test Class # 15
     /// </summary>
     public class UnitTest15
     {
         /// <summary>
-        /// Tests the method1.
+        /// Tests the method01.
         /// </summary>
         /// <param name="value">The value.</param>
         [Theory()]
-        [InlineData(1)]
-        [InlineData(2)]
-        [InlineData(3)]
-        [InlineData(4)]
-        [InlineData(5)]
-        [InlineData(6)]
-        [InlineData(7)]
-        [InlineData(8)]
-        [InlineData(9)]
-        [InlineData(10)]
         [InlineData(11)]
         [InlineData(12)]
         [InlineData(13)]
@@ -72,26 +62,16 @@ namespace BigTestProject
         [InlineData(58)]
         [InlineData(59)]
         [InlineData(60)]
-        public void TestMethod1(int value)
+        public void TestMethod01(int value)
         {
             Assert.True(value > 0);
         }
 
         /// <summary>
-        /// Tests the method2.
+        /// Tests the method02.
         /// </summary>
         /// <param name="value">The value.</param>
         [Theory()]
-        [InlineData(1)]
-        [InlineData(2)]
-        [InlineData(3)]
-        [InlineData(4)]
-        [InlineData(5)]
-        [InlineData(6)]
-        [InlineData(7)]
-        [InlineData(8)]
-        [InlineData(9)]
-        [InlineData(10)]
         [InlineData(11)]
         [InlineData(12)]
         [InlineData(13)]
@@ -142,26 +122,16 @@ namespace BigTestProject
         [InlineData(58)]
         [InlineData(59)]
         [InlineData(60)]
-        public void TestMethod2(int value)
+        public void TestMethod02(int value)
         {
             Assert.True(value > 0);
         }
 
         /// <summary>
-        /// Tests the method3.
+        /// Tests the method03.
         /// </summary>
         /// <param name="value">The value.</param>
         [Theory()]
-        [InlineData(1)]
-        [InlineData(2)]
-        [InlineData(3)]
-        [InlineData(4)]
-        [InlineData(5)]
-        [InlineData(6)]
-        [InlineData(7)]
-        [InlineData(8)]
-        [InlineData(9)]
-        [InlineData(10)]
         [InlineData(11)]
         [InlineData(12)]
         [InlineData(13)]
@@ -212,26 +182,16 @@ namespace BigTestProject
         [InlineData(58)]
         [InlineData(59)]
         [InlineData(60)]
-        public void TestMethod3(int value)
+        public void TestMethod03(int value)
         {
             Assert.True(value > 0);
         }
 
         /// <summary>
-        /// Tests the method4.
+        /// Tests the method04.
         /// </summary>
         /// <param name="value">The value.</param>
         [Theory]
-        [InlineData(1)]
-        [InlineData(2)]
-        [InlineData(3)]
-        [InlineData(4)]
-        [InlineData(5)]
-        [InlineData(6)]
-        [InlineData(7)]
-        [InlineData(8)]
-        [InlineData(9)]
-        [InlineData(10)]
         [InlineData(11)]
         [InlineData(12)]
         [InlineData(13)]
@@ -282,26 +242,16 @@ namespace BigTestProject
         [InlineData(58)]
         [InlineData(59)]
         [InlineData(60)]
-        public void TestMethod4(int value)
+        public void TestMethod04(int value)
         {
             Assert.True(value > 0);
         }
 
         /// <summary>
-        /// Tests the method5.
+        /// Tests the method05.
         /// </summary>
         /// <param name="value">The value.</param>
         [Theory]
-        [InlineData(1)]
-        [InlineData(2)]
-        [InlineData(3)]
-        [InlineData(4)]
-        [InlineData(5)]
-        [InlineData(6)]
-        [InlineData(7)]
-        [InlineData(8)]
-        [InlineData(9)]
-        [InlineData(10)]
         [InlineData(11)]
         [InlineData(12)]
         [InlineData(13)]
@@ -352,26 +302,16 @@ namespace BigTestProject
         [InlineData(58)]
         [InlineData(59)]
         [InlineData(60)]
-        public void TestMethod5(int value)
+        public void TestMethod05(int value)
         {
             Assert.True(value > 0);
         }
 
         /// <summary>
-        /// Tests the method6.
+        /// Tests the method06.
         /// </summary>
         /// <param name="value">The value.</param>
         [Theory]
-        [InlineData(1)]
-        [InlineData(2)]
-        [InlineData(3)]
-        [InlineData(4)]
-        [InlineData(5)]
-        [InlineData(6)]
-        [InlineData(7)]
-        [InlineData(8)]
-        [InlineData(9)]
-        [InlineData(10)]
         [InlineData(11)]
         [InlineData(12)]
         [InlineData(13)]
@@ -422,26 +362,16 @@ namespace BigTestProject
         [InlineData(58)]
         [InlineData(59)]
         [InlineData(60)]
-        public void TestMethod6(int value)
+        public void TestMethod06(int value)
         {
             Assert.True(value > 0);
         }
 
         /// <summary>
-        /// Tests the method7.
+        /// Tests the method07.
         /// </summary>
         /// <param name="value">The value.</param>
         [Theory]
-        [InlineData(1)]
-        [InlineData(2)]
-        [InlineData(3)]
-        [InlineData(4)]
-        [InlineData(5)]
-        [InlineData(6)]
-        [InlineData(7)]
-        [InlineData(8)]
-        [InlineData(9)]
-        [InlineData(10)]
         [InlineData(11)]
         [InlineData(12)]
         [InlineData(13)]
@@ -492,26 +422,16 @@ namespace BigTestProject
         [InlineData(58)]
         [InlineData(59)]
         [InlineData(60)]
-        public void TestMethod7(int value)
+        public void TestMethod07(int value)
         {
             Assert.True(value > 0);
         }
 
         /// <summary>
-        /// Tests the method8.
+        /// Tests the method08.
         /// </summary>
         /// <param name="value">The value.</param>
         [Theory]
-        [InlineData(1)]
-        [InlineData(2)]
-        [InlineData(3)]
-        [InlineData(4)]
-        [InlineData(5)]
-        [InlineData(6)]
-        [InlineData(7)]
-        [InlineData(8)]
-        [InlineData(9)]
-        [InlineData(10)]
         [InlineData(11)]
         [InlineData(12)]
         [InlineData(13)]
@@ -562,26 +482,16 @@ namespace BigTestProject
         [InlineData(58)]
         [InlineData(59)]
         [InlineData(60)]
-        public void TestMethod8(int value)
+        public void TestMethod08(int value)
         {
             Assert.True(value > 0);
         }
 
         /// <summary>
-        /// Tests the method9.
+        /// Tests the method09.
         /// </summary>
         /// <param name="value">The value.</param>
         [Theory]
-        [InlineData(1)]
-        [InlineData(2)]
-        [InlineData(3)]
-        [InlineData(4)]
-        [InlineData(5)]
-        [InlineData(6)]
-        [InlineData(7)]
-        [InlineData(8)]
-        [InlineData(9)]
-        [InlineData(10)]
         [InlineData(11)]
         [InlineData(12)]
         [InlineData(13)]
@@ -632,7 +542,7 @@ namespace BigTestProject
         [InlineData(58)]
         [InlineData(59)]
         [InlineData(60)]
-        public void TestMethod9(int value)
+        public void TestMethod09(int value)
         {
             Assert.True(value > 0);
         }
@@ -642,16 +552,6 @@ namespace BigTestProject
         /// </summary>
         /// <param name="value">The value.</param>
         [Theory]
-        [InlineData(1)]
-        [InlineData(2)]
-        [InlineData(3)]
-        [InlineData(4)]
-        [InlineData(5)]
-        [InlineData(6)]
-        [InlineData(7)]
-        [InlineData(8)]
-        [InlineData(9)]
-        [InlineData(10)]
         [InlineData(11)]
         [InlineData(12)]
         [InlineData(13)]
