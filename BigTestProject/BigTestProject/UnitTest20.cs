@@ -1,4 +1,5 @@
 ﻿using Xunit;
+using Xunit.Abstractions;
 
 namespace BigTestProject
 {
@@ -7,6 +8,24 @@ namespace BigTestProject
     /// </summary>
     public class UnitTest20
     {
+        /// <summary>
+        /// Gets or sets the output.
+        /// </summary>
+        /// <value>
+        /// The output.
+        /// </value>
+        private ITestOutputHelper Output { get; set; }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="UnitTest20"/> class.
+        /// </summary>
+        /// <param name="outputHelper">The output helper.</param>
+        public UnitTest20(
+           ITestOutputHelper outputHelper)
+        {
+            Output = outputHelper;
+        }
+
         /// <summary>
         /// Tests the method01.
         /// </summary>
@@ -64,6 +83,7 @@ namespace BigTestProject
         [InlineData(60)]
         public void TestMethod01(int value)
         {
+            Output.WriteLine($"Test Output: {value}");
             Assert.True(value > 0);
         }
 
@@ -124,6 +144,7 @@ namespace BigTestProject
         [InlineData(60)]
         public void TestMethod02(int value)
         {
+            Output.WriteLine($"Test Output: {value}");
             Assert.True(value > 0);
         }
 
@@ -184,6 +205,7 @@ namespace BigTestProject
         [InlineData(60)]
         public void TestMethod03(int value)
         {
+            Output.WriteLine($"Test Output: {value}");
             Assert.True(value > 0);
         }
 
@@ -244,6 +266,7 @@ namespace BigTestProject
         [InlineData(60)]
         public void TestMethod04(int value)
         {
+            Output.WriteLine($"Test Output: {value}");
             Assert.True(value > 0);
         }
 
@@ -304,6 +327,7 @@ namespace BigTestProject
         [InlineData(60)]
         public void TestMethod05(int value)
         {
+            Output.WriteLine($"Test Output: {value}");
             Assert.True(value > 0);
         }
 
@@ -364,6 +388,7 @@ namespace BigTestProject
         [InlineData(60)]
         public void TestMethod06(int value)
         {
+            Output.WriteLine($"Test Output: {value}");
             Assert.True(value > 0);
         }
 
@@ -424,6 +449,7 @@ namespace BigTestProject
         [InlineData(60)]
         public void TestMethod07(int value)
         {
+            Output.WriteLine($"Test Output: {value}");
             Assert.True(value > 0);
         }
 
@@ -484,6 +510,7 @@ namespace BigTestProject
         [InlineData(60)]
         public void TestMethod08(int value)
         {
+            Output.WriteLine($"Test Output: {value}");
             Assert.True(value > 0);
         }
 
@@ -544,6 +571,7 @@ namespace BigTestProject
         [InlineData(60)]
         public void TestMethod09(int value)
         {
+            Output.WriteLine($"Test Output: {value}");
             Assert.True(value > 0);
         }
 
@@ -604,6 +632,7 @@ namespace BigTestProject
         [InlineData(60)]
         public void TestMethod10(int value)
         {
+            Output.WriteLine($"Test Output: {value}");
             Assert.True(value > 0);
         }
     }
